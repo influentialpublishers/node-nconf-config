@@ -1,0 +1,9 @@
+{
+    "TEST": {
+        "SOMETHING": "This is something",
+        "ENVIRONMENT": "Should be overridden",
+        "PROCESS": {
+            "TEST": "Should be overridden"
+        }
+    }
+}

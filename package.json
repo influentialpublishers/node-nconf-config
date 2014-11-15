@@ -4,7 +4,7 @@
   "description": "a simple nconf configuration file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/influentialpublishers/node-nconf-config/issues"
   },
-  "homepage": "https://github.com/influentialpublishers/node-nconf-config"
+  "homepage": "https://github.com/influentialpublishers/node-nconf-config",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "sinon": "^1.11.1",
+    "sinon-chai": "^2.6.0"
+  },
+  "dependencies": {
+    "nconf": "^0.6.9"
+  }
 }
