@@ -1,6 +1,6 @@
 {
   "name": "node-nconf-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple nconf configuration file.",
   "main": "index.js",
   "scripts": {
