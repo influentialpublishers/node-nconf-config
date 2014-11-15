@@ -1,0 +1,24 @@
+{
+  "name": "node-nconf-config",
+  "version": "1.0.0",
+  "description": "a simple nconf configuration file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/influentialpublishers/node-nconf-config.git"
+  },
+  "keywords": [
+    "nconf",
+    "config",
+    "settings"
+  ],
+  "author": "Nathan A Sculli <nsculli@influentialpublishers.com>",
+  "license": "Copyright",
+  "bugs": {
+    "url": "https://github.com/influentialpublishers/node-nconf-config/issues"
+  },
+  "homepage": "https://github.com/influentialpublishers/node-nconf-config"
+}
