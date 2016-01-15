@@ -16,7 +16,7 @@
     "settings"
   ],
   "author": "Nathan A Sculli <nsculli@influentialpublishers.com>",
-  "license": "Copyright",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/influentialpublishers/node-nconf-config/issues"
   },
