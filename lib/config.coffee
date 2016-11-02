@@ -11,10 +11,12 @@ module.exports  = (config) ->
   resolved = nconf.argv()
   resolved = resolved.env('__')
 
+  base = config.base_path
   if _isVpn resolved
-    resolved = _loadFileIntoConfig(resolved, config.base_path, 'vpn')
+    resolved = _loadFileIntoConfig(resolved, base, 'vpn_environment')
+    resolved = _loadFileIntoConfig(resolved, base, 'vpn')
 
-  resolved = _loadFileIntoConfig(resolved, config.base_path, 'environment')
-  resolved = _loadFileIntoConfig(resolved, config.base_path, 'defaults')
+  resolved = _loadFileIntoConfig(resolved, base, 'environment')
+  resolved = _loadFileIntoConfig(resolved, base, 'defaults')
 
   return resolved.get()
